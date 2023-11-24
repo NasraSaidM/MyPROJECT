@@ -1,0 +1,116 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Manrope,sans-serif;
+  
+ }
+ body{
+  
+  background-color: #E4F3EC;
+ }
+ .slogan{
+  height: 160px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 22px;
+  margin-top: 80px;
+  color: ;
+ }
+ span{
+  margin-left: 8px;
+ }
+ 
+ .main{
+  height: 450px;
+  background-color: white;
+  margin: auto 100px;
+  border-radius: 30px;
+ 
+ }
+.section{
+  display: grid;
+  grid-template-columns: 650px 1fr;  
+}
+
+.one{
+  margin-top: 80px;
+  width: 500px;
+  margin-left: 50px;
+}
+
+.grad{
+  width:400px;
+  height: 300px;
+  border-radius: 6px;
+  margin-right:40px ;
+  margin-top: 80px;
+  box-shadow: 2px 2px 2px gray;
+
+}
+.txt {
+  letter-spacing: 1px;
+  margin-top: 40px;
+  line-height: 2.6;
+}
+.title{
+  font-size: 28px;
+    color:#003046;
+    line-height: 1.4;
+}
+
+.btnn,.connexion{
+  padding: 14px 30px;
+  background-color: #003046;
+  color: white;
+  border-radius: 50px;
+  border: none;
+  font-size: 17px;
+  cursor: pointer;
+  margin-bottom: 16px;
+ }
+.btnn:hover,.connexion:hover{
+  color:#003046;
+  background-color:white ;
+ 
+}
+section button{
+  margin-top: 40px;
+  margin-left: 35px;
+}
+.ori{
+  display: grid;
+  grid-template-columns: 620px 1fr;
+  height: 340px;
+  margin-top: 40px;
+  
+}
+.titre{
+  
+  font-size: 28px;
+  color:rgb(0, 140, 255) ;
+    line-height: 1.4;
+    margin-bottom: 30px;
+}
+.orientation_text{
+  margin-top: 16px;
+}
+.text{
+  line-height: 35px;
+  letter-spacing: 1px;
+  width: 400px;
+}
+.img{
+ 
+  
+  margin-left: 150px;
+}
+.image{
+  height: 300px;
+  width: 400px;
+  object-fit: cover;
+  margin-top: 15px;
+  border-radius: 4px;
+  box-shadow: 2px 2px 2px gray;
+ 
+}
